@@ -9,6 +9,7 @@ License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/MIME/%{upstream_name}-%{upstream_version}.tar.gz
+BuildRequires: perl(Email::Date::Format)
 BuildRequires: perl(HTML::LinkExtor)
 BuildRequires: perl(LWP::UserAgent)
 BuildRequires: perl(MIME::Lite)
