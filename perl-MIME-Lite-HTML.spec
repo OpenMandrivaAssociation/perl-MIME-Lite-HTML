@@ -1,14 +1,14 @@
 %define upstream_name    MIME-Lite-HTML
-%define upstream_version 1.23
+%define upstream_version 1.24
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.24
+Release:	1
 Summary:	Provide routine to transform HTML to MIME
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MIME/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MIME/MIME-Lite-HTML-1.24.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Email::Date::Format)
@@ -51,3 +51,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Sep 03 2009 cpan2dist 1.23-1mdv
 - initial mdv release, generated with cpan2dist
+
