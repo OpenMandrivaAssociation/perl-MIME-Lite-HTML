@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.24
-Release:	1
+Release:	2
 Summary:	Provide routine to transform HTML to MIME
 License:	GPL+ or Artistic
 Group:		Development/Perl
