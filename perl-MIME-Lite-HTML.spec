@@ -7,7 +7,7 @@ Release:	3
 Summary:	Provide routine to transform HTML to MIME
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/MIME/MIME-Lite-HTML-1.24.tar.gz
 
 BuildRequires:	perl-devel
