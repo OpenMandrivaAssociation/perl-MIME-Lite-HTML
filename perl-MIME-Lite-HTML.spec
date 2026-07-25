@@ -2,13 +2,13 @@
 %define upstream_version 1.24
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.24
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 Summary:	Provide routine to transform HTML to MIME
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MIME/MIME-Lite-HTML-1.24.tar.gz
+Url:		https://metacpan.org/dist/MIME-Lite-HTML
+Source0:	https://cpan.metacpan.org/authors/id/A/AL/ALIAN/MIME-Lite-HTML-1.24.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
