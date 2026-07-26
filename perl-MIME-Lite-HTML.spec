@@ -1,9 +1,7 @@
 %define upstream_name    MIME-Lite-HTML
-%define upstream_version 1.24
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	1.24
+Release:	5
 Summary:	Provide routine to transform HTML to MIME
 License:	GPL+ or Artistic
 Group:		Development/Perl
@@ -27,7 +25,7 @@ transform a HTML page in MIME::Lite mail. So you need this module to use
 MIME-Lite-HTML possibilities
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
